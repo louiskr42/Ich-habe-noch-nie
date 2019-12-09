@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:background="#EF5350">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/anleitung"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FBFBEF"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/developer"
+        android:id="@+id/developer_tw"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_above="@+id/adViewAnleitung"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:text="@string/anleitung2"
+        android:id="@+id/anleitung2_tw"
+        android:textColor="#FBFBEF"
+        android:textSize="40dp"
+        android:layout_above="@+id/developer_tw"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="230dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewAnleitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-1814335808278709/2377881478"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.coreelements.ihnn.QuestionAdd"
+    android:background="#FF0000">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:id="@+id/addquestion_et"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:background="#FFFFFF"
+        android:hint="z.B.: Steine gegessen"/>
+
+    <TextView
+        android:layout_marginTop="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text='Frage bitte ohne:
+"Ich habe noch nie " eingeben'
+        android:id="@+id/textView3"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frage hinzufügen"
+        android:id="@+id/addquestion_tv"
+        android:layout_below="@+id/addquestion_et"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"/>
+</RelativeLayout>

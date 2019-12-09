@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ich habe noch nie...</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ich_hab_noch_nie">Ich habe noch nie...</string>
+    <string name="los_gehts">Los geht\'s!</string>
+    <string name="anleitung">Die Regeln sind ganz einfach. Du liest in einer Gruppe den Satz vor. Dann melden sich alle die diese Sache auch noch nie gemacht haben. Wenn einer sich nicht meldet, muss er seine Geschichte wie es zu dem Ereignis gekommen ist erzählen. Aber Ehrlichkeit ist gefragt! Also das perfekte Spiel unter Freunden auf Party\'s, oder um neue Freunde kennen zu lernen.</string>
+    <string name="developer">Developed by Core Elements</string>
+    <string name="anleitung2">Oder man gestaltet es als Trinkspiel. Jeder der die Sache schon einmal gemacht hat, muss einen Kurzen Trinken. Die Entscheidung liegt bei euch!</string>
+    <string name="title_activity_game">Ich habe noch nie</string>
+    <string name="title_activity_anleitung">Anleitung</string>
+    <string name="title_activity_question_add">QuestionAdd</string>
+    <string name="addquestion">Eigene Frage hinzufügen</string>
+    <string name="title_activity_change_color">Change Color</string>
+    <string name="allQuestions">Herzlichen Glückwunsch, du hast alle Fragen durch! Sie werden nun neu gemischt und nochmal angezeigt.</string>
+
+
+</resources>
